@@ -5100,13 +5100,13 @@ var Textarea = function ($$$1) {
  */
 
 var Dropdown = function ($$$1) {
-  /**
-   * Check for Popper dependency
-   * Popper - https://popper.js.org
-   */
-  if (typeof Popper === 'undefined') {
-    throw new Error('Bootstrap dropdown require Popper.js (https://popper.js.org)');
-  }
+  // /**
+  //  * Check for Popper dependency
+  //  * Popper - https://popper.js.org
+  //  */
+  // if (typeof Popper === 'undefined') {
+  //   throw new Error('Bootstrap dropdown require Popper.js (https://popper.js.org)');
+  // }
   /**
    * ------------------------------------------------------------------------
    * Constants
@@ -6315,7 +6315,7 @@ var Autofill = function ($$$1) {
 }(jQuery);
 
 /* globals Popper */
-Popper.Defaults.modifiers.computeStyle.gpuAcceleration = false;
+// Popper.Defaults.modifiers.computeStyle.gpuAcceleration = true;
 /**
  * $.bootstrapMaterialDesign(config) is a macro class to configure the components generally
  *  used in Material Design for Bootstrap.  You may pass overrides to the configurations
