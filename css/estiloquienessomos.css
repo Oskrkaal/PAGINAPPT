@@ -1,0 +1,30 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* menu y carousel */
+.colornav{
+    background-color: rgba(4, 3, 3, 0.37);
+}
+.menu{
+  position:absolute;
+  z-index: 1;
+  width: 100%;
+}
+
+.colormenu{
+    background: rgba(255, 255, 255, 0.75);
+}
+
+
+/********************************/
+/*          footer              */
+/********************************/
+
+.cajafooter{
+  background-color:rgba(39, 38, 41, 0.89);
+  width: 100%;
+  height: 20vh;
+  color:rgb(255, 255, 255);
+}
