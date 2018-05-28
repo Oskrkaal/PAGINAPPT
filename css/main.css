@@ -5,7 +5,7 @@
    ========================================================================== */
 /* menu y carousel */
 .colornav{
-    background-color: rgba(4, 3, 3, 0.51);
+    background-color: rgba(4, 3, 3, 0.37);
 }
 .menu{
   position:absolute;
@@ -13,7 +13,8 @@
   width: 100%;
 }
 .carusel{
-	z-index: 0;
+    z-index: 0;
+    position: relative;
 }
 .colormenu{
     background: rgba(255, 255, 255, 0.75);
