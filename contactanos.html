@@ -85,105 +85,44 @@
 
 
 <!-- formulario -->
-<div class="container">
-    <div class="row">
-          <div class="col-md-2"> </div>
-          <div class="col-md-8">
-            <h1>Contáctanos</h1>
-            <p class="lead">¿Tienes una pregunta o necesitas más información?</p>
-            
-            <p>Llena el formulario y nos pondremos en contacto contigo lo antes posible.</p> <br> 
-             
-            <!-- BEGIN DOWNLOAD PANEL -->
-            <div class="panel panel-default well">
-              <div class="panel-body">
-                <form action="" class="form-horizontal track-event-form bv-form" data-goaltype="”General”" data-formname="”ContactUs”" method="post" id="contact-us-all" novalidate="novalidate">
-                  <input name="elqSiteId" type="hidden" value="928">
-                  <input name="sFDCLastCampaignID" type="hidden" value="701400000012Lql">
-                  <input name="elqFormName" type="hidden" value="EMEAAllContactUsSubmissions">
-                  <input name="nexturl" type="hidden" value="">
-                  <input name="Partner" type="hidden" value="">
-                  <input name="language" type="hidden" value="en">
+<div class="container ">
     
-                  <div class="form-group">               
-                    <div class="col-sm-6">
-                      <div class="input-group">
-                        <div class="input-group-addon">
-                          <i class="fa fa-user"></i>
-                                </div>
-                        <input type="text" class="form-control" id="exampleInputFirstName" placeholder="Nombre(s)" name="C_FirstName" data-bv-field="C_FirstName">
-                            </div>
-                        <small data-bv-validator="notEmpty" data-bv-validator-for="C_FirstName" class="help-block" style="display: none;">Required</small></div>                
-                    <div class="col-sm-6">
-                      <div class="input-group">
-                        <div class="input-group-addon">
-                          <i class="fa fa-user"></i>
-                                </div>
-                        <input type="text" class="form-control" id="exampleInputLastName" placeholder="Apellido(s)" name="C_LastName" data-bv-field="C_LastName"></div>
-                            <small data-bv-validator="notEmpty" data-bv-validator-for="C_LastName" class="help-block" style="display: none;">Required</small></div>
-                            </div>
-    
-                  <div class="form-group">               
-                              <div class="col-sm-6">
-                                <div class="input-group">
-                                  <div class="input-group-addon">
-                                    <i class="fa fa-envelope"></i>
-                                </div>
-                                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Ingresa email" name="C_EmailAddress" data-bv-field="C_EmailAddress">
-                            </div>
-                        <small data-bv-validator="notEmpty" data-bv-validator-for="C_EmailAddress" class="help-block" style="display: none;">Required</small></div>                
-                              <div class="col-sm-6">
-                                <div class="input-group">
-                                </div>
-                      </div>
-                            </div>
-                              <div class="input-group">
-                                  </div>                        
-            
-                            <div class="col-sm-6">
-                              <div class="input-group" style="display: none;">
-                        <div class="input-group-addon">
-                          <i class="fa fa-globe"></i>          
-                                  </div>
-                      </div>
-                            </div>
-                          
-                          
-                          <div class="form-group">
-                    <div class="col-sm-12">
-                      <div class="input-group">
-                                  <div class="input-group-addon">
-                          <i class="fa fa-phone"></i>                      
-                        </div>
-                        <input type="text" class="form-control" id="C_BusPhone" placeholder="Teléfono" name="C_BusPhone">
-                      </div>                                    
-                    </div>
-                          </div>
-                    
-                          <div class="form-group">
-                            <div class="col-sm-12">
-                      <div class="input-group">
-                        <div class="input-group-addon">
-                          <i class="fa fa-comment fa-2"></i>                
-                        </div>                  
-                        <textarea class="form-control" name="Comments" id="Comments" rows="5" style="width:99.9%" placeholder="Ingresa tu mensaje"></textarea>
-                      </div>                                    
-                    </div>
-                          </div>
-                          
-                          <div class="form-group">
-                            <div class="col-sm-12">
-                      <button id="contacts-submit" type="submit" class="btn btn-default btn-info">CONTACTANOS</button>
-                            </div>
-                          </div>
-                <input type="hidden" value=""></form>
-              </div><!-- end panel-body -->
-            </div><!-- end panel -->
-            <!-- END DOWNLOAD PANEL -->
-          </div><!-- end col-md-8 -->
-          <div class="col-md-2"> </div>
+    <div class="col-xs-12 col-sm-3 col-md-3"></div>
+    <div class="col-xs-12 col-sm-6 col-md-6 formulario">
+        <h1 class="text-center">Contactanos</h1>
+        
+        <form action="" method="POST" role="form">
+            <div class="form-group">
+                <label for="">Ingresa tu Nombre </label>
+                <input type="text" class="form-control" id="" placeholder="Nombre" required>
             </div>
+            <div class="form-group">
+                    <label for="">Ingresa tu Apellido</label>
+                    <input type="text" class="form-control" id="" placeholder="Apellido" required>
+            </div>
+            <div class="form-group">
+                    <label for="">Ingresa tu Correo</label>
+                    <input type="email" class="form-control" id="" placeholder="Correo" required>
+            </div>
+            <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Tu mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Escribe tu mensaje"></textarea>
+            </div>
+            
+        
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        
     </div>
+    <div class="col-xs-12 col-sm-3 col-md-3"></div>
+    
+</div>
+
+
+
+
+
+
 <!-- pie de pagina -->
 <footer>
   <div class="cajafooter">
@@ -218,7 +157,7 @@
 
 
     <!-- <script>$.material.init()</script> -->
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <!-- <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script> -->
     <!-- <script src="js/vendor/bootstrap-material-design.js"></script>
     <script src="js/vendor/popper.min.js"></script>
     <script src="js/vendor/split.min.js"></script>
@@ -226,10 +165,10 @@
     <script src="js/vendor/clipboard.min.js"></script>
     <script src="js/vendor/holder.min.js"></script>
     <script src="js/vendor/jquery-slim.min.js"></script> --> 
-    <!-- <script src="js/vendor/jquery-3.1.1.min.js"></script> -->
+    <script src="js/vendor/jquery-3.1.1.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/vendor/material.min.js"></script>
     <script src="js/vendor/ripples.min.js"></script>
-    <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
 </body>
